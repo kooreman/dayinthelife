@@ -1,0 +1,1 @@
+(function(){"use strict";$.stellar(),$("a").smoothScroll()}).call(this);
