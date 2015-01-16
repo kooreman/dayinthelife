@@ -1,1 +1,0 @@
-(function(){"use strict";Modernizr.touch||$.stellar(),$("a").smoothScroll({offset:-50})}).call(this);
