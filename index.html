@@ -11,7 +11,7 @@
     <meta name="keywords" content="nieuwe ondernemen, innovatief werken, product innovatie, productinnovatie, innovatie training, innovatiekracht, innovatietraining, innovatieworkshop, innovatie workshop, innovatie, bedrijfstraining, bedrijfsworkshop, nieuwe producten en diensten, innovatie coach, innovatie coaching, product innovatie, productinnovatie, innovatieproces, innovatie consultancy, business model innovation, business model innovatie,innovatief werken, training innovatie, innovatie consultancy, nieuwe producten op de markt, innovatie management, innovatiemanagement">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="styles/b3c72e74.main.css">
+    <link rel="stylesheet" href="styles/87f0b00a.main.css">
     <script src="scripts/vendor/d1e46096.modernizr.js"></script>
   </head>
   <body>
@@ -46,6 +46,9 @@
                                   <a href="#proces">hoe</a>
                               </li>
                               <li>
+                                  <a href="#offers">inschrijven</a>
+                              </li>
+                              <li>
                                   <a data-toggle="collapse" data-target="#contact" href="#dayinthelife">contact</a>
                               </li>
 
@@ -60,7 +63,7 @@
 
 
 
-      <div id="contact" class="collapse">
+      <div id="contact" class="collapse contact">
           <div class="pull-right close-link">
               <a class="btn btn-orange" data-toggle="collapse" data-target="#contact" href="#contact">
                   <i class="fa fa-times"></i>
@@ -69,38 +72,38 @@
 
 
           <div class="contactform">
-              <h2>Breng innovatiekracht in jullie team</h2>
+              <h2>Neem de eerste stap naar nieuwe omzet</h2>
               <p>Laat je details achter en we nemen snel contact op</p>
 
-              <div id="contactform_ok" class="alert alert-success">
+              <div class="alert alert-success contactform_ok">
                   <strong>We nemen zo snel mogelijk contact met je op!</strong>
               </div>
 
-              <form id="contactform" method="POST" action="//formspree.io/info@doon.nu">
+              <form id="contactform1" class="contactform" method="POST" action="//formspree.io/info@doon.nu">
                   <div class="form-group">
                       <p class="label">NAAM</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" id="naam" placeholder="Je naam">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Je naam">
                       </div>
                   </div>
                   <div class="form-group">
                       <p class="label">E-MAIL</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" id="email" name="_replyto" placeholder="Je e-mail adres">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Je e-mail adres">
                       </div>
                   </div>
                   <div class="form-group">
                       <p class="label">TELEFOON</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" id="phone" name="phone" placeholder="Je tel. nr.">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Je tel. nr.">
                       </div>
                   </div>
-                  <input type="hidden" id="_next" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
-                  <input type="hidden" id="_subject" name="_subject" value="Day in the life of - contact!">
-                  <input type="submit" id="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Ja, ik wil innovatiekracht!">
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - contact!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Ja, ik wil nieuwe omzet!">
 
 
               </form>
@@ -108,6 +111,166 @@
 
 
       </div>
+      <div id="singlesubscribe" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#singlesubscribe" href="#singlesubscribe">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>Inschrijving</h2>
+              <p>Laat je details achter en we nemen snel contact op</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>Dank je voor je inschrijving! We nemen zo snel mogelijk contact met je op!</strong>
+              </div>
+
+
+              <form id="contactform2" class="contactform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">WANNEER</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-calendar"></i></div>
+                          <select class="input-group-addon-borderless form-control input-lg" name="wanneer">
+                              <option value="Geen keuze">Wanneer kan je?</option>
+                              <option value="Donderdag, 26 Maart 2015">Donderdag, 26 Maart 2015</option>
+                              <option value="Donderdag, 23 April 2015">Donderdag, 23 April 2015</option>
+                              <option value="Donderdag, 28 Mei 2015">Donderdag, 28 Mei 2015</option>
+                              <option value="Donderdag, 18 Juni 2015">Donderdag, 18 Juni 2015</option>
+                          </select>
+
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">NAAM</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Je naam">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Je e-mail adres">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">TELEFOON</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Je tel. nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - inschrijving los!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Ja, schrijf me in!">
+
+
+              </form>
+          </div>
+
+
+      </div>
+      <div id="teamsubscribe" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#teamsubscribe" href="#teamsubscribe">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>Inschrijven team</h2>
+              <p>Laat je details achter en we nemen snel contact op</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>We nemen zo snel mogelijk contact met je op!</strong>
+              </div>
+
+
+              <form id="contactform3" class="contactform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">NAAM</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Je naam">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Je e-mail adres">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">TELEFOON</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Je tel. nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - inschrijving team!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Ja, schrijf mijn team in!">
+
+              </form>
+          </div>
+
+
+      </div>
+      <div id="inhousecontact" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#inhousecontact" href="#inhousecontact">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>De eerste stap zetten: In house</h2>
+              <p>Laat je details achter en we nemen snel contact op</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>We nemen zo snel mogelijk contact met je op!</strong>
+              </div>
+
+
+              <form id="contactform4" class="contactform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">NAAM</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Je naam">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Je e-mail adres">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">TELEFOON</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Je tel. nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - meer info in house!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Ja, ik wil de eerste stap zetten">
+
+              </form>
+          </div>
+
+
+      </div>
+
 
       <section id="header">
           <div class="bg">
@@ -121,14 +284,17 @@
           </div>
           <div class="row">
               <div class="col-xs-8 col-xs-offset-4 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 headertext">
-                  <h1>Leren innoveren anno 2020</h1>
+                  <h1>De eerste stap naar nieuwe omzet</h1>
                   <div class="row">
 
-                      <div class="col-sm-10 col-md-10"><p>Maak innovatiekracht in jouw organisatie los! Hoe? Door in één dag te ervaren hoe je innoveert als een startup. Jouw team leert in een serious game om in één dag van idee tot nieuw businessmodel te komen.</p></div>
+                      <div class="col-sm-10 col-md-10"><p>
+                          Maak innovatiekracht in jouw organisatie los! Hoe? Door in één dag te ervaren
+                          hoe je innoveert als een startup. Je leert in een serious game om in één dag
+                          van een idee een nieuw businessmodel te maken.</p></div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 header-cta">
-              <a class="btn btn-lg btn-primary" data-toggle="collapse" data-target="#contact" href="#dayinthelife" title="Breng innovatiekracht in je organisatie!">Ik wil meer innovatiekracht ></a>
+              <a class="btn btn-lg btn-primary" data-toggle="collapse" data-target="#contact" href="#dayinthelife" title="Ik wil nieuwe omzet!">Ik wil nieuwe omzet ></a>
               </div>
           </div>
 
@@ -141,11 +307,12 @@
               <div class="row">
                   <div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1">
                       <h2>Waarom?</h2>
-                      <p>Veranderingen gaan hard. Je kunt als organisatie alleen maar waarde blijven leveren door hier
-                          continue op in te spelen. De teams van jouw organisatie leren in 'A Day In The Life of a Startup'
-                          in spelvorm in &eacute;&eacute;n
-                          dag innovatief te werken. Teams leren praktische tools waarmee ze zelf kunnen
-                          innoveren binnen jouw eigen organisatie.</p>
+                      <p>Er zijn <i>straks</i> geen klanten meer voor de producten en diensten die je <i>nu</i> aanbiedt.<br>
+                          Je moet nieuwe omzet maken door nieuwe succesvolle producten en diensten in de markt te zetten.
+                      </p><p>
+                          In 'A Day In The Life of a Startup' leer je in spelvorm en in &eacute;&eacute;n
+                          dag om innovatief te werken. Je gebruikt praktische en eenvoudige tools om zelf te
+                          innoveren binnen jouw organisatie. De eerste stap naar nieuwe omzet.</p>
                   </div>
               </div>
 
@@ -157,15 +324,15 @@
                       <div class="">
                           <div class="img-pro"><img src="/images/icons/a1963ac2.SEO-31.png" alt="Nieuwe businessmodellen" title="Nieuwe businessmodellen"></div>
                           <h3>Nieuwe businessmodellen</h3>
-                          <p>Leer in één dag jullie ideeën concreet te maken en te beschrijven in businessmodellen.</p>
+                          <p>Leer in één dag om een idee om te zetten naar een businessmodel voor een nieuw product of nieuwe dienst</p>
                       </div>
                   </div>
 
                   <div class="col-md-4">
                       <div class="">
                           <div class="img-pro"><img src="/images/icons/db53f8fb.Ecology-23.png" alt="Klantgericht innoveren" title="Klantgericht innoveren"></div>
-                          <h3>Klantgericht, innovatief werken</h3>
-                          <p>Ga op de behoefte van klanten inspelen, door ze vanaf het begin te betrekken bij de productontwikkeling.</p>
+                          <h3>Klantgericht & innovatief</h3>
+                          <p>Ga in op de behoefte van je klanten. Betrek ze vanaf de eerste stap in de ontwikkeling.</p>
                       </div>
                   </div>
 
@@ -218,9 +385,10 @@
                       <p>
                           'A day in the life of a startup' is een serious game, waarin ondernemende werknemers een dag lang
                           een startup vormen rondom een idee voor een nieuw product of nieuwe dienst. In de dag werkt het team
-                          een idee uit en vertaalt deze naar een bruikbaar businessmodel voor jouw organisatie.
-                          De spelvorm zorgt niet alleen voor de fun factor, maar zorgt ervoor dat het teams leert denken
-                          en handelen als een startup.</p>
+                          met onze praktische innovatiemethode
+                          een idee uit en vertaalt het idee naar een nieuw businessmodel.
+                          De spelvorm zorgt niet alleen voor de fun factor, maar zorgt ervoor dat het team leert denken
+                          en doen als een startup.</p>
                   </div>
               </div>
 
@@ -230,7 +398,7 @@
                       <div class="">
                           <div class="img-pro"><img alt="Idee, visie & missie" title="Idee, visie & missie" src="/images/icons/3253738c.SEO-01.png"></div>
                           <h3>Stap 1:<br>Idee, visie & missie</h3>
-                          <p>De teams leren om een idee verder uit te denken. Teams gaan hun visie achter het idee
+                          <p>Het team leert om een idee verder uit te denken. Teams gaan hun visie achter het idee
                               vormgeven; de stip op de horizon. Ze gaan bepalen wie ze willen zijn en hoe ze als
                               startup invulling gaan geven aan de visie.</p>
                       </div>
@@ -242,8 +410,8 @@
                           <h3>Stap 2:<br>Waardepropositie & businessmodel</h3>
                           <p>De teams maken hun idee&euml;n concreet in de vorm van een concept en een
                               bijbehorende waardepropositie en businessmodel.
-                              De teams hebben een eigen (fictief) budget en kunnen hiermee expertise inhuren of
-                              klanten en investeerders benaderen.
+                              De teams hebben een eigen (fictief) budget en kunnen hiermee expertise inhuren,
+                              klanten betrekken of investeerders benaderen.
                               Zo leert het team van klanten en investeerders of hun nieuwe product wel echte waarde biedt.</p>
                       </div>
                   </div>
@@ -252,9 +420,9 @@
                       <div class="">
                           <div class="img-pro"><img alt="De pitch" title="De pitch" src="/images/icons/c72ff0dc.SEO-45.png"></div>
                           <h3>Stap 3:<br>De pitch</h3>
-                          <p>Door de dag heen leren de teams om zelf hun idee concreet te maken en een gevalideerd businessmodel
-                              voor een nieuw product of nieuwe dienst te maken. Teams presenteren hun businessmodel aan
-                              het einde van de dag aan de jury die de winnaar uitroept.</p>
+                          <p>Door de dag heen leren de teams om zelf hun idee concreet te maken en er een gevalideerd businessmodel
+                              voor een nieuw product of nieuwe dienst van te maken. Teams presenteren hun businessmodel aan
+                              het einde van de dag aan de jury, die de winnaar uitroept.</p>
                       </div>
                   </div>
 
@@ -272,13 +440,13 @@
                   <div class="col-md-6 col-md-offset-3">
                       <h2>Het nieuwe ondernemen</h2>
                       <p>
-                          Continue inspelen op veranderingen. Dagelijks innoveren. Dat potentieel zit ook in de mensen van
-                          jouw organisatie! Hoe richt je jouw organisatie zo in, dat iedereen in de organisatie zelf nieuwe
-                          producten en diensten weet te bedenken? Dat iedereen deze nieuwe producten en diensten ook
-                          concreet kan maken? Dat iedere medewerker zelf gaat ondernemen?
-                          DOON levert de middelen die organisaties in staat stelt om zelf klantgericht te innoveren.
+                          Continue inspelen op veranderingen. Dagelijks innoveren. Nieuwe omzet krijgen uit nieuwe producten en diensten.
+                          Dat potentieel zit ook in de mensen van jouw organisatie! Hoe richt je jouw organisatie zo in,
+                          dat iedereen in de organisatie zelf nieuwe producten en diensten weet te bedenken? Dat iedereen
+                          deze nieuwe producten en diensten ook concreet kan maken? Dat iedere medewerker zelf gaat ondernemen?
+                          DOON levert praktische en eenvoudige middelen die organisaties in staat stelt om zelf klantgericht te innoveren.
                       </p>
-                      <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Ik wil meer ondernemerschap</a>
+                      <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Ik wil meer innovatiekracht! ></a>
                   </div>
 
               </div>
@@ -317,22 +485,83 @@
           </div>
       </section>
 
-      <!--<section id="statement">-->
-      <!--<div class="container">-->
+      <section id="offers">
+          <div class="bg"></div>
 
-      <!--<div class="row">-->
-      <!--<div class="col-md-2">-->
-      <!--foto-->
-      <!--</div>-->
-      <!--<div class="col-md-10">-->
-      <!--Statement-->
-      <!--</div>-->
+          <div class="row">
+              <div class="center col-md-6 col-md-offset-3">
+                  <h2>Schrijf je in</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-10 col-md-offset-1 offerings">
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>Individueel</h3>
+                          </div>
 
-      <!--</div>-->
+                          <ul>
+                              <li>Voor 1 persoon</li>
+                              <li>Pak in een team een maatschappelijk vraagstuk op</li>
+                          </ul>
 
-      <!--</div>-->
-      <!--</section>-->
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>&euro; 500,-</h3>
+                              </div>
 
+                              <a data-toggle="collapse" data-target="#singlesubscribe" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Schrijf me in ></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>Team</h3>
+                          </div>
+
+                          <ul>
+                              <li>Voor een team van max. 5 personen</li>
+                              <li>Pak jullie eigen idee&euml;n op binnen het team!</li>
+                          </ul>
+
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>&euro; 1500,-</h3>
+                              </div>
+
+
+                              <a data-toggle="collapse" data-target="#teamsubscribe" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Schrijf ons in ></a>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>In house</h3>
+                          </div>
+
+                          <ul>
+                              <li>Voor meerdere teams. In house.</li>
+                              <li>Aan de slag met jullie eigen idee&euml;n</li>
+                          </ul>
+
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>Neem contact op</h3>
+                              </div>
+
+                              <a data-toggle="collapse" data-target="#inhousecontact" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Neem contact op ></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+      </section>
 
       <section id="dayinthelife-photo-b">
           <div class="photo-a" data-stellar-background-ratio="0.3">&nbsp;</div>
@@ -345,13 +574,13 @@
               <div class="row">
                   <div class="col-md-6 col-md-offset-3">
                       <h2>Spelenderwijs innoveren</h2>
-                      <p>Door een innovatie training te geven in de vorm van een serieus spel, leren teams van medewerkers
+                      <p>Door een innovatie training te geven in de vorm van een serieus spel, leren teams
                           op een praktische manier
                           hun eigen idee&euml;n om te vormen tot nieuwe producten en diensten. Door een
                           veilige omgeving te bieden, en de druk een beetje op te voeren, worden we altijd verrast door
                           medewerkers die in die situatie opstaan en nieuwe
                           richtingen bedenken.</p>
-                      <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Ik wil meer innoveren</a>
+                      <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Ik wil meer innoveren! ></a>
                   </div>
               </div>
 
@@ -387,7 +616,7 @@
 
 
               <div class="row">
-                  <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Help me mijn innovatiekracht te ontketenen!</a>
+                  <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">Help me mijn innovatiekracht te ontketenen! ></a>
               </div>
 
           </div>
@@ -430,7 +659,7 @@
 
         <script src="scripts/vendor/d8c47e5b.bootstrap.js"></script>
 
-        <script src="scripts/1ab541e6.main.js"></script>
+        <script src="scripts/ad6ed763.main.js"></script>
 
 
   </body>
