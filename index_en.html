@@ -34,7 +34,7 @@
                               <span class="icon-bar"></span>
                           </button>
                           <a class="navbar-brand" href="#dayinthelife" title="DOON.nu">
-                              <img alt="DOON Ideate Validate Create, Innovate like a startup!" title="DOON Ideate Validate Create, Innovate like a startup!" src="/images/446c6e7b.doon-logo.png">
+                              <img alt="DOON Ideate Validate Create, Step by step to new revenue!" title="DOON Ideate Validate Create, Step by step to new revenue!" src="/images/446c6e7b.doon-logo.png">
                           </a>
                       </div>
                       <div id="navbar" class="navbar-collapse collapse">
@@ -47,6 +47,9 @@
                               </li>
                               <li>
                                   <a href="#proces">how</a>
+                              </li>
+                              <li>
+                                  <a href="#offers">register</a>
                               </li>
                               <li>
                                   <a data-toggle="collapse" data-target="#contact" href="#dayinthelife">contact</a>
@@ -63,7 +66,7 @@
 
 
 
-      <div id="contact" class="collapse">
+      <div id="contact" class="collapse contact">
           <div class="pull-right close-link">
               <a class="btn btn-orange" data-toggle="collapse" data-target="#contact" href="#contact">
                   <i class="fa fa-times"></i>
@@ -72,38 +75,38 @@
 
 
           <div class="contactform">
-              <h2>Bring innovation power to your team</h2>
+              <h2>Take the first step to new revenue</h2>
               <p>Leave your details, and we'll get in touch</p>
 
-              <div id="contactform_ok" class="alert alert-success">
+              <div class="alert alert-success contactform_ok">
                   <strong>We'll get in touch as soon as possible!</strong>
               </div>
 
-              <form id="contactform" method="POST" action="//formspree.io/info@doon.nu">
+              <form id="contactform" class="contactformform" method="POST" action="//formspree.io/info@doon.nu">
                   <div class="form-group">
                       <p class="label">NAME</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" id="naam" placeholder="Your name">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Your name">
                       </div>
                   </div>
                   <div class="form-group">
                       <p class="label">E-MAIL</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" id="email" name="_replyto" placeholder="Your e-mail address">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Your e-mail address">
                       </div>
                   </div>
                   <div class="form-group">
                       <p class="label">PHONE</p>
                       <div class="input-group">
                           <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
-                          <input type="text" class="input-group-addon-borderless form-control input-lg" id="phone" name="phone" placeholder="Your phone nr.">
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Your phone nr.">
                       </div>
                   </div>
-                  <input type="hidden" id="_next" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
-                  <input type="hidden" id="_subject" name="_subject" value="Day in the life of - contact (engels)!">
-                  <input type="submit" id="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Yes, I want innovation power!">
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - contact (engels)!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Yes, I want new revenue!">
 
 
               </form>
@@ -111,9 +114,170 @@
 
 
       </div>
+      <div id="singlesubscribe" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#singlesubscribe" href="#singlesubscribe">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>Register individual</h2>
+              <p>Leave your details, and we'll get in touch</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>Tanks! We'll get in touch as soon as possible!</strong>
+              </div>
+
+
+              <form id="contactform2" class="contactformform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">WHEN</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-calendar"></i></div>
+                          <select class="input-group-addon-borderless form-control input-lg" name="wanneer">
+                              <option value="Geen keuze">When can you attend?</option>
+                              <option value="Donderdag, 26 March 2015">Thursday, 26 March 2015, Utrecht - The Netherlands</option>
+                              <option value="Donderdag, 23 April 2015">Thursday, 23 April 2015, Utrecht - The Netherlands</option>
+                              <option value="Donderdag, 28 May 2015">Thursday, 28 May 2015, Utrecht - The Netherlands</option>
+                              <option value="Donderdag, 18 June 2015">Thursday, 18 June 2015, Utrecht - The Netherlands</option>
+                          </select>
+
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">NAME</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Your name">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Your e-mail address">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">PHONE</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Your phone nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - inschrijving los (engels)!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Yes, register now!">
+
+
+              </form>
+          </div>
+
+
+      </div>
+      <div id="teamsubscribe" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#teamsubscribe" href="#teamsubscribe">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>Register team</h2>
+              <p>Leave your details, and we'll get in touch</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>Tanks! We'll get in touch as soon as possible!</strong>
+              </div>
+
+
+              <form id="contactform3" class="contactformform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">NAME</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Your name">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Your e-mail address">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">PHONE</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Your phone nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - inschrijving team (engels)!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Yes, register as team!">
+
+              </form>
+          </div>
+
+
+      </div>
+      <div id="inhousecontact" class="collapse contact">
+          <div class="pull-right close-link">
+              <a class="btn btn-orange" data-toggle="collapse" data-target="#inhousecontact" href="#inhousecontact">
+                  <i class="fa fa-times"></i>
+              </a>
+          </div>
+
+
+          <div class="contactform">
+              <h2>First step to revenue in house</h2>
+              <p>Leave your details, and we'll get in touch</p>
+
+              <div class="alert alert-success contactform_ok">
+                  <strong>Tanks! We'll get in touch as soon as possible!</strong>
+              </div>
+
+
+              <form id="contactform4" class="contactformform" method="POST" action="//formspree.io/info@doon.nu">
+                  <div class="form-group">
+                      <p class="label">NAME</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-user"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="naam" placeholder="Your name">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">E-MAIL</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-envelope-o"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="_replyto" placeholder="Your e-mail address">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <p class="label">PHONE</p>
+                      <div class="input-group">
+                          <div class="input-group-addon input-lg"><i class="fa fa-phone"></i></div>
+                          <input type="text" class="input-group-addon-borderless form-control input-lg" name="phone" placeholder="Your phone nr.">
+                      </div>
+                  </div>
+                  <input type="hidden" name="_next" value="//dayinthelife.doon.nu/bedankt.html">
+                  <input type="hidden" name="_subject" value="Day in the life of - meer info in house (engels)!">
+                  <input type="submit" name="innovatiekracht" class="btn btn-orange btn-block" value="Yes, I want to take the first step">
+
+              </form>
+          </div>
+
+
+      </div>
+
 
       <section id="header">
-          <div class="bg"></div>
+          <div class="bg">
+          </div>
           <div class="hugo">
               <img src="/images/40afe85e.hugo.png" title="Doing is better than predicting -Hugo Bakkenist" alt="Hugo Bakkenist">
           </div>
@@ -123,7 +287,7 @@
           </div>
           <div class="row">
               <div class="col-xs-8 col-xs-offset-4 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 headertext">
-                  <h1>Learn to innovate like in 2020</h1>
+                  <h1>The first step to new revenue</h1>
                   <div class="row">
 
                       <div class="col-sm-10 col-md-10">
@@ -136,7 +300,7 @@
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 header-cta">
-                  <a class="btn btn-lg btn-primary" data-toggle="collapse" data-target="#contact" href="#dayinthelife" title="Bind innovation power to your organisaion!">I want more innovation power! ></a>
+                  <a class="btn btn-lg btn-primary" data-toggle="collapse" data-target="#contact" href="#dayinthelife" title="I want new revenue!">I want new revenue! ></a>
               </div>
           </div>
 
@@ -150,10 +314,13 @@
                   <div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1">
                       <h2>Why?</h2>
                       <p>
-                          The world is changing rapidly. As an organisation, the only way to keep delivering value to your customers
-                          is to continuously adapt and innovate. In 'A Day In The Life of a Startup', teams from your organisation learn how to work
-                          in an innovative way in a single day. Teams learn practical tools which they can use to innovate
-                          in their own organisation.
+                          Soon, there will not be any more customers for products and services you are offering now.
+                          You will need to create new sources of revenue by creating succesfull new products and services.
+                      </p>
+                      <p>
+                          In 'A Day In The Life of a Startup', you will learn how to work
+                          in an innovative way in a single day. You will learn to use practical tools which you can use to innovate
+                          in your organisation. The first step to new revenue.
                       </p>
                   </div>
               </div>
@@ -166,7 +333,7 @@
                       <div class="">
                           <div class="img-pro"><img src="/images/icons/a1963ac2.SEO-31.png" alt="New business models" title="New business models"></div>
                           <h3>New business models</h3>
-                          <p>Learn to make your ideas tangible and to create business models based on them</p>
+                          <p>Learn to create business models based on your ideas</p>
                       </div>
                   </div>
 
@@ -200,7 +367,7 @@
                   <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6"><img class="img-circle" title="Michel Cobben" alt="Michel Cobben" src="/images/321ef014.michel_cobben.jpg"></div>
                   <div class="col-md-8 col-sm-8 col-xs-6">
                       <div class="quote-icon"><i class="fa fa-quote-right"></i></div>
-                      <div class="quote col-md-12">DOON is good in doing.</div>
+                      <div class="quote col-md-12">DOON is good at doing.</div>
                       <div class="pull-right">- Michel Cobben, general manager Van Spaendonck MarktConcern</div>
 
                  </div>
@@ -226,9 +393,9 @@
                       </p>
                       <p>
                           'A day in the life of a startup' is a serious game, in which entrepreneurial employees form a
-                          startup for a single day based on an idea for a new product or service. During the day, the team
-                          transforms the idea into a usable business model for your organisation. The serious game method is not
-                          only used because of the fun factor. It also make sure that the team learns to think and act like a
+                          startup for a single day based on an idea for a new product or new service. During the day, the team will work with
+                          our practical innovation method to transform the idea into a usable business model for your organisation.
+                          The serious game method is not only makes it more fun, it makes sure that the team learns to think and act like a
                           real startup.
                        </p>
                   </div>
@@ -288,12 +455,13 @@
                   <div class="col-md-6 col-md-offset-3">
                       <h2>New entrepreneurship</h2>
                       <p>
-                          Continuously adapt to change. Innovate daily. Your organisation has the potential to do so.
+                          Continuously adapt to change. Innovate daily. Get new revenue from new products and new services.
+                          The people in your organisation have the potential to make this happen!
                           How do you structure your organisation in such a way, that everybody in your organisation is
                           capable of thinking up new products and services? And in such a way that everybody can convert
                           the ideas into
                           actual new products and services? That everybody becomes entrepreneurial?
-                          DOON offers methods which enable organisations to innovate in a customer oriented way.
+                          DOON offers practial tools and methods which enable organisations to innovate in a customer oriented way.
                       </p>
                       <a class="btn btn-lg btn-primary btn-orange" data-toggle="collapse" data-target="#contact" href="#dayinthelife">I want more entrepreneurship</a>
                   </div>
@@ -334,22 +502,86 @@
           </div>
       </section>
 
-      <!--<section id="statement">-->
-      <!--<div class="container">-->
+      <section id="offers">
+          <div class="bg"></div>
 
-      <!--<div class="row">-->
-      <!--<div class="col-md-2">-->
-      <!--foto-->
-      <!--</div>-->
-      <!--<div class="col-md-10">-->
-      <!--Statement-->
-      <!--</div>-->
+          <div class="row">
+              <div class="center col-md-6 col-md-offset-3">
+                  <h2>Registration</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-10 col-md-offset-1 offerings">
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>Individual</h3>
+                          </div>
 
-      <!--</div>-->
+                          <ul>
+                              <li>For 1 person</li>
+                              <li>Work hands on with a social issue in a team</li>
+                          </ul>
 
-      <!--</div>-->
-      <!--</section>-->
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>&euro; 500,-</h3>
+                                  <span class="small">(excl. VAT)</span>
+                              </div>
 
+                              <a data-toggle="collapse" data-target="#singlesubscribe" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Apply as individual ></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>Team</h3>
+                          </div>
+
+                          <ul>
+                              <li>For a team of max. 5 persons</li>
+                              <li>Work on your idea with your whole team</li>
+                          </ul>
+
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>&euro; 1500,-</h3>
+                                  <span class="small">(excl. VAT)</span>
+                              </div>
+
+
+                              <a data-toggle="collapse" data-target="#teamsubscribe" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Apply as a team ></a>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="offer col-md-4">
+                      <div class="content">
+                          <div class="center">
+                              <h3>In house</h3>
+                          </div>
+
+                          <ul>
+                              <li>For multiple teams. In house.</li>
+                              <li>Work on your own organisational ideas</li>
+                          </ul>
+
+                          <div class="cta">
+                              <div class="center">
+                                  <h3>Contact us</h3>
+                                  <span class="small">&nbsp;</span>
+                              </div>
+
+                              <a data-toggle="collapse" data-target="#inhousecontact" class="btn btn-lg btn-orange btn-block" href="#dayinthelife">Contact us ></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+      </section>
 
       <section id="dayinthelife-photo-b">
           <div class="photo-a" data-stellar-background-ratio="0.3">&nbsp;</div>
@@ -447,7 +679,7 @@
 
         <script src="scripts/vendor/d8c47e5b.bootstrap.js"></script>
 
-        <script src="scripts/ad6ed763.main.js"></script>
+        <script src="scripts/fe993fca.main.js"></script>
 
 
   </body>
